@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.container {
+    padding: 0em 10%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    height: 5em;
+}
+
+.buscar {
+    flex: 1;
+    margin: 0em 5em;
+    height: 30px;
+}
+
+#btnLogueo {
+    padding: 0.5em 2.5em;
+    border: 2px solid black;
+    background-color: rgb(18, 134, 230);
+    color: white;
+    margin-right: 2.5em;
+    box-shadow: 3px 3px black;
+}
+
+.titulo {
+    margin-left: 0.5em;
+}
+
+.presentacion {
+    display: flex;
+    margin-top: 2.0em;
+}
+
+.panelIzquierda {
+    flex: 1;
+}
+
+.panelDerecha {
+    flex: 3;
+    margin-right: 3.0em;
+}
+
+.panelito {
+    border: 3px solid gray;
+    display: flex;
+    padding: 1.0em;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.otroPanel {
+    border: 3px solid gray;
+    padding: 1.0em;
+}
+
+.panelitoDerecha {
+    flex: 1;
+}
+
+.panelitoDerecha > p , .panelitoDerecha > h2 {
+    text-align: center;
+    padding-top: 0.3em;
+}
+
+.panelitoIzquierda {
+    flex: 4;
+    margin-left: 2.0em;
+}
+
+.botoncito, #agregarDefinicion {
+    border: 2px solid black;
+    background-color: rgb(240, 149, 12);
+    box-shadow: 3px 3px black;
+    padding: 0.5em 1.0em;
+    width: content;
+    margin-top: 0.8em;
+    width:100%;
+    display:block;
+}
+
+#agregarDefinicion {
+    background-color: rgb(51, 177, 40);
+}
+
+.otroPanel > p{
+    font-size: 1.5em;
+}

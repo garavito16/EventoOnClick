@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h1 class="titulo">Dojonary</h1>
+            <input class="buscar" type="text" placeholder="Search"/>
+            <div>
+                <button id="btnLogueo" onclick="clickLogueo(this)">Login</button>
+            </div>
+        </div>
+        <div class="presentacion">
+            <div class="panelDerecha">
+                <div class="panelito">
+                    <div class="panelitoDerecha">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button onclick="clickBotoncito()" class="botoncito">13 likes</button>
+                    </div>
+                    <div class="panelitoIzquierda">
+                        A practitioner skilled in the <a href="#">Japonese</a> art of <a href="#">ninjutsu</a>
+                    </div>
+                </div>
+                <div class="panelito">
+                    <div class="panelitoDerecha">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button onclick="clickBotoncito()" class="botoncito">37 likes</button>
+                    </div>
+                    <div class="panelitoIzquierda">
+                        A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus
+                    </div>
+                </div>
+            </div>
+            <div class="panelIzquierda">
+                <div class="otroPanel">
+                    <p>Dojonary is defined by <b>YOU</b></p>
+                    <button onclick="clickDefinicion(this)" id="agregarDefinicion">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
